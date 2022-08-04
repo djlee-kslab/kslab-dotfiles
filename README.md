@@ -2,7 +2,7 @@
 
 ## Hammerspoon으로 키 매핑하기
 
-간단하게는 여기 .hammerspoon 아래 있는 모든 파일들을 해머스푼을 설치하면 생성되는 ~/.hammerspoon 아래에 옮기면 됩니다.
+간단하게는 여기 .hammerspoon 아래 모든 파일들을 해머스푼을 설치하면 생성되는 ~/.hammerspoon 아래에 옮기면 됩니다.
 
 상세한 설명은 다음과 같습니다.
 
