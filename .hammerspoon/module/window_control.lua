@@ -7,11 +7,11 @@ local function move_win(xx, yy, ww, hh)
         local win = hs.window.focusedWindow()
         local f = win:frame()
         local max = win:screen():frame()
-        f.x = max.w * xx
-        f.y = max.h * yy
-        f.w = max.w * ww
-        f.h = max.h * hh
-        win:setFrame(f)
+        f.x = max.w * xx -- x좌표 위치
+        f.y = max.h * yy -- y좌표 위치
+        f.w = max.w * ww -- 가로 길이
+        f.h = max.h * hh -- 세로 길이
+        win:setFrame(f) -- 현재 focusing하고 있는 윈도우에 (x,y) 위치와 가로/세로 길이를 적용
     end
 end
 
@@ -22,9 +22,9 @@ local mod = {'left_control', 'left_option'}
 hs.hotkey.bind(mod, 'return',	move_win(0, 0, 1, 1))
 
 -- 화면 2분할({up, down, left, righ} = {상, 하, 좌, 우})
-hs.hotkey.bind(mod, 'up',	move_win(0, 0, 1, 1/2))
-hs.hotkey.bind(mod, 'down',	move_win(0, 1/2, 1, 1/2))
-hs.hotkey.bind(mod, 'left',	move_win(0, 0, 1/2, 1))
+hs.hotkey.bind(mod, 'up',	    move_win(0, 0, 1, 1/2))
+hs.hotkey.bind(mod, 'down',	    move_win(0, 1/2, 1, 1/2))
+hs.hotkey.bind(mod, 'left',	    move_win(0, 0, 1/2, 1))
 hs.hotkey.bind(mod, 'right',	move_win(1/2, 0, 1/2, 1))
 
 -- 화면 4분할 ({i, k, j, u} = {1사분면, 2사분면, 3사분면, 4사분면})
