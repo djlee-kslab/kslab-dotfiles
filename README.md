@@ -53,6 +53,7 @@ vim ~/.hammerspoon/init.lua
 
 ### Home/End 버튼 살리기
 
-작업되어 있습니다. 아래와 같이 cmd+arrow로 매핑해뒀습니다.
+아래와 같이 작업되어 있습니다. 
+<img width="834" alt="image" src="https://user-images.githubusercontent.com/96708272/182779590-12d12428-3029-4cc8-966a-e601af0a91f0.png">
 
-<img width="905" alt="image" src="https://user-images.githubusercontent.com/96708272/182773903-f1c6671f-bc58-4b92-84d7-c6de98d7f260.png">
+
