@@ -23,6 +23,15 @@ mv ./kslab-dotfiles/.hammerspoon/init.lua ~/.hammerspoon/
 mv -f ./kslab-dotfiles/.hammerspoon/module ~/.hammerspoon/
 ```
 
+### 윈도우 위치 조정 단축키 만들기
+
+![Screen Recording 2022-08-04 at 15 08 49](https://user-images.githubusercontent.com/96708272/182775472-c30029ef-a230-4209-a7fe-6075ad05f835.gif)
+
+
+작업되어 있습니다. 단축키는 아래와 같습니다.
+
+<img width="559" alt="image" src="https://user-images.githubusercontent.com/96708272/182769605-9584a962-6ce3-45d1-9194-0b8641170c37.png">
+
 ### 한/영 키 만들기
 
 ```bash
@@ -38,14 +47,6 @@ vim ~/.hammerspoon/init.lua
 # 스크린샷 첨부합니다.
 ```
 <img width="680" alt="image" src="https://user-images.githubusercontent.com/96708272/182772661-6d7d0113-197f-4bb7-84bb-c6abff794db2.png">
-
-
-### 윈도우 위치 조정 단축키 만들기
-
-작업되어 있습니다. 단축키는 아래와 같습니다.
-
-<img width="559" alt="image" src="https://user-images.githubusercontent.com/96708272/182769605-9584a962-6ce3-45d1-9194-0b8641170c37.png">
-
 
 ### Home/End 버튼 살리기
 
