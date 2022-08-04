@@ -42,6 +42,9 @@ vim ~/.hammerspoon/init.lua
 
 작업되어 있습니다. 단축키는 아래와 같습니다.
 
+<img width="559" alt="image" src="https://user-images.githubusercontent.com/96708272/182769605-9584a962-6ce3-45d1-9194-0b8641170c37.png">
+
+
 ### Home/End 버튼 살리기
 
 작업되어 있습니다.
