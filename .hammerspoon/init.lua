@@ -1,3 +1,6 @@
+-- init
+-- @djlee@kslab.co.kr, 220804
+
 -- 윈도우 위치를 제어하는 모듈
 local module_windowControl = require('module.window_control')
 
