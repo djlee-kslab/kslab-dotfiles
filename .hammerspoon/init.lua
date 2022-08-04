@@ -6,3 +6,6 @@ local module_keyRemapping = require('module.foundation_remapping')
 local remapper = module_keyRemapping.new()
 remapper:remap('ralt', 'f18')
 remapper:register()
+
+-- Home/End 키를 윈도우처럼 변경
+local module_restoreHomeAndEndKey = require('module.restore_home_and_end_key')
