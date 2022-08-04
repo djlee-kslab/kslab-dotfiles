@@ -2,7 +2,9 @@
 
 ## Hammerspoon으로 키 매핑하기
 
-사전준비는 다음과 같습니다.
+간단하게는 여기 .hammerspoon 아래 있는 모든 파일들을 해머스푼을 설치하면 생성되는 ~/.hammerspoon 아래에 옮기면 됩니다.
+
+상세한 설명은 다음과 같습니다.
 
 ```bash
 # 해머스푼 설치
@@ -22,7 +24,6 @@ mv -f ./kslab-dotfiles/.hammerspoon/module ~/.hammerspoon/
 ```
 
 ### 한/영 키 만들기
-
 
 ```bash
 # 키매핑 파일을 열고, remapper:remap('ralt', 'f18') 부분을 용도에 맞게 수정합니다.
