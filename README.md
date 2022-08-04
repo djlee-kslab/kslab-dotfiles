@@ -27,8 +27,7 @@ mv -f ./kslab-dotfiles/.hammerspoon/module ~/.hammerspoon/
 
 ![Screen Recording 2022-08-04 at 15 08 49](https://user-images.githubusercontent.com/96708272/182775472-c30029ef-a230-4209-a7fe-6075ad05f835.gif)
 
-
-작업되어 있습니다. 단축키는 아래와 같습니다.
+위 gif처럼 동작하며, 작업되어 있습니다. 단축키는 아래와 같습니다.
 
 <img width="559" alt="image" src="https://user-images.githubusercontent.com/96708272/182769605-9584a962-6ce3-45d1-9194-0b8641170c37.png">
 
