@@ -22,9 +22,9 @@ local mod = {'left_control', 'left_option'}
 hs.hotkey.bind(mod, 'return',	move_win(0, 0, 1, 1))
 
 -- 화면 2분할({up, down, left, righ} = {상, 하, 좌, 우})
-hs.hotkey.bind(mod, 'up',	   move_win(0, 0, 1, 1/2))
-hs.hotkey.bind(mod, 'down',	   move_win(0, 1/2, 1, 1/2))
-hs.hotkey.bind(mod, 'left',	   move_win(0, 0, 1/2, 1))
+hs.hotkey.bind(mod, 'up',	move_win(0, 0, 1, 1/2))
+hs.hotkey.bind(mod, 'down',	move_win(0, 1/2, 1, 1/2))
+hs.hotkey.bind(mod, 'left',	move_win(0, 0, 1/2, 1))
 hs.hotkey.bind(mod, 'right',	move_win(1/2, 0, 1/2, 1))
 
 -- 화면 4분할 ({i, k, j, u} = {1사분면, 2사분면, 3사분면, 4사분면})
