@@ -2,9 +2,7 @@
 
 ## Hammerspoon으로 키 매핑하기
 
-간단하게는 여기 .hammerspoon 아래 모든 파일들을 해머스푼을 설치하면 생성되는 ~/.hammerspoon 아래에 옮기면 됩니다.
-
-상세한 설명은 아래 가이드를 따라오시면 됩니다.
+레포지토리 .hammerspoon 아래 모든 파일들을 해머스푼을 설치하면 생성되는 ~/.hammerspoon 아래에 옮기면 됩니다.
 
 ```bash
 # 시작에 앞서, 해머스푼 설치
@@ -22,6 +20,8 @@ git clone https://github.com/djlee-kslab/kslab-dotfiles
 mv ./kslab-dotfiles/.hammerspoon/init.lua ~/.hammerspoon/
 mv -f ./kslab-dotfiles/.hammerspoon/module ~/.hammerspoon/
 ```
+
+설정이 끝난 뒤에 해머스푼 아이콘을 눌러 Console 을 열고 새로고침 버튼을 눌러 설정이 잘 적용되는지 확인해주세요.
 
 ### 윈도우 위치 조정 단축키 만들기
 
