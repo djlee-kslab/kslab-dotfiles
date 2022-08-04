@@ -25,17 +25,18 @@ mv -f ./kslab-dotfiles/.hammerspoon/module ~/.hammerspoon/
 
 
 ```bash
-
 # 키매핑 파일을 열고, remapper:remap('ralt', 'f18') 부분을 용도에 맞게 수정합니다.
 # - 1. 맥 기본 키보드: 'ralt' -> 'rcmd'
 # - 2. 외장 키보드: 'ralt' 그대로
+# 우측 cmd 또는 alt 키를 F18이라는 안쓴느 키로 매핑하는 과정입니다.
 vim ~/.hammerspoon/init.lua
 
 # 애플로고 > System Preferences > keyboard > Shorcuts > InputSources에서
 # - 'Select the previous input source' 를 체크 해제
-# - 'Select next source in Input menu' 를 한영키를 눌러 F18로 설정합니다.
- 
+# - 'Select next source in Input menu' 를 한영키(F18)로 설정합니다.
+# 스크린샷 첨부합니다.
 ```
+<img width="680" alt="image" src="https://user-images.githubusercontent.com/96708272/182772661-6d7d0113-197f-4bb7-84bb-c6abff794db2.png">
 
 
 ### 윈도우 위치 조정 단축키 만들기
